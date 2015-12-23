@@ -51,8 +51,10 @@ header {
 }
 
 .nav {
-  text-align: left;
+  text-align: right;
   height: 80px;
+  margin-right: 150px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .nav ul {
@@ -72,4 +74,15 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.intro {
+  font-size: 90px;
+  position:absolute;
+  top:37%;
+  text-align: center;
+  width:100%;
+  line-height: 120px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(15, 15, 15, .9);
 }
